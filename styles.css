@@ -74,12 +74,16 @@ section{
   border: 1px solid transparent;
   width: 420px;
   height: 370px;
-  /* display: inline-block; */
+  display: inline-block;
   overflow: scroll;
   margin-left: 30px;
   margin-bottom: 1em;
   vertical-align: 1.8em;
   text-align: left;
+}
+
+#anuncios li{
+  display: inline;
 }
 
 #anuncio{
